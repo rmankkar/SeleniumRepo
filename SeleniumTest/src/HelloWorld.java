@@ -9,9 +9,6 @@ public class HelloWorld {
 		System.setProperty("webdriver.gecko.driver", "R:\\Selenium\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 		
 		WebDriver driver = new FirefoxDriver();
-		driver.get("https://www.google.com/");
-		
-		
+		driver.get("https://www.google.com/");	
 	}
-
 }
